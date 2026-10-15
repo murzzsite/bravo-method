@@ -1,0 +1,34 @@
+{
+  "siteName": "БРАВО",
+  "siteUrl": "https://murzzsite.github.io/bravo-method",
+  "lang": "ru",
+  "repo": "murzzsite/bravo-method",
+  "ref": "HQ3GSPL4N5",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи о слухе, игре на инструменте, пении и записи музыки от БРАВО",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Богдан Харченко",
+    "jobTitle": "",
+    "type": "Person"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Запишитесь на бесплатную консультацию: за 30–60 минут вы почувствуете на себе, как работает метод.",
+  "ctaButton": "Записаться на консультацию",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "47b44f869a6fd9a4eaefb7fcce2c1442",
+  "previewSecret": "d93836f3f2341642",
+  "theme": {
+    "ink": "var(--ink)",
+    "soft": "var(--navy-soft)",
+    "line": "var(--line)"
+  }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /bravo-method/blog/preview/
+
+Sitemap: https://murzzsite.github.io/bravo-method/sitemap.xml
