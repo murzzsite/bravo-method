@@ -1,6 +1,6 @@
 :root{
-  --navy:#0F2D6B;
-  --navy-dark:#0A1F4D;
+  --navy:#0A1B45;
+  --navy-dark:#050E26;
   --navy-soft:#E8EEF9;
   --gold:#D4A017;
   --gold-dark:#9A7410;
@@ -31,8 +31,8 @@ ul{list-style:none}
 
 /* BUTTONS */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 26px;border-radius:10px;font-weight:700;font-size:15px;transition:.2s;border:1.5px solid transparent;cursor:pointer;white-space:nowrap;font-family:inherit}
-.btn--accent{background:var(--gold);color:var(--navy-dark)}
-.btn--accent:hover{background:#E6B52E}
+.btn--accent{background:linear-gradient(180deg,#F7E39A 0%,#E2B53C 46%,#B98A12 52%,#DDB03A 100%);color:var(--navy-dark);box-shadow:0 6px 16px -8px rgba(154,116,16,.7)}
+.btn--accent:hover{filter:brightness(1.07)}
 .btn--outline{border-color:var(--navy);color:var(--navy)}
 .btn--outline:hover{background:var(--navy);color:#fff}
 .btn--lg{padding:16px 32px;font-size:16px}
@@ -195,7 +195,7 @@ ul{list-style:none}
 .footer__bottom a:hover{color:#fff}
 
 /* FAB */
-.fab{position:fixed;bottom:26px;right:26px;width:56px;height:56px;border-radius:50%;background:var(--gold);color:var(--navy-dark);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px -8px rgba(212,160,23,.7);z-index:90;transition:.2s}
+.fab{position:fixed;bottom:26px;right:26px;width:56px;height:56px;border-radius:50%;background:linear-gradient(180deg,#F7E39A 0%,#E2B53C 48%,#B98A12 54%,#DDB03A 100%);color:var(--navy-dark);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px -8px rgba(212,160,23,.7);z-index:90;transition:.2s}
 .fab:hover{transform:translateY(-3px)}
 .fab svg{width:26px;height:26px}
 
