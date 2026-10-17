@@ -188,6 +188,7 @@ ul{list-style:none}
 /* FOOTER */
 .footer{background:var(--navy-dark);color:#C9D3EC;padding:64px 0 24px}
 .footer__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12)}
+.footer__logo{border-radius:12px;margin-bottom:14px;max-width:100%;height:auto}
 .footer__col a,.footer__col p{display:block;color:#C9D3EC;font-size:14.5px;margin-bottom:10px}
 .footer__col a:hover{color:#fff}
 .footer__title{color:var(--gold);font-weight:700;margin-bottom:14px;font-size:15px}
