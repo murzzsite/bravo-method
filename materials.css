@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 251, 243, 0.94);
+  background: rgba(2, 6, 24, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -109,10 +109,10 @@
 }
 .say--client .say__who { color: var(--navy); }
 .say--stop {
-  border-left-color: #a13b30;
-  background: #fbf1ef;
+  border-left-color: #E4574A;
+  background: rgba(161, 59, 48, 0.18);
 }
-.say--stop .say__who { color: #a13b30; }
+.say--stop .say__who { color: #FF8F84; }
 
 .ul { margin: 12px 0 0 20px; }
 .ul li { margin-bottom: 8px; }
@@ -177,7 +177,8 @@
 .offer__price { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 19px; color: var(--navy); white-space: nowrap; }
 
 .cta-final {
-  background: var(--navy);
+  background: rgba(2, 5, 18, 0.85);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 54px 40px;
   text-align: center;
@@ -203,6 +204,9 @@
 }
 
 @media print {
+  :root { --navy:#0A1B45; --navy-dark:#0A1B45; --deep:#fff; --cream:#fff; --paper:#fff; --ink:#1B2233; --ink-soft:#586079; --line:#d9cfae; --gold-dark:#7a5c0a; --gold-soft:#f5ecc9; }
+  body { background: #fff !important; }
+  .cta-final { background:#fff !important; }
   .doc-bar, .toc, .fab, .no-print { display: none !important; }
   body { background: #fff; font-size: 12pt; }
   .card, .tip, .say { break-inside: avoid; }
@@ -256,5 +260,5 @@
 /* Кнопки для doc-bar */
 .btn--ghost { background: transparent; color: var(--navy); border: 1px solid var(--line); }
 .btn--ghost:hover { border-color: var(--gold); color: var(--gold-dark); }
-.btn--primary { background: var(--gold); color: var(--navy-dark); }
-.btn--primary:hover { background: #E6B52E; }
+.btn--primary { background: var(--gold-grad); color: #02050F; }
+.btn--primary:hover { filter: brightness(1.07); }
