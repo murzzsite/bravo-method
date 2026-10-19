@@ -288,3 +288,6 @@ ul{list-style:none}
 .hero__card-list li::after{color:var(--gold-dark)}
 .adv__icon{border:1px solid var(--line)}
 .stat__num{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+.logo__img{height:50px;width:auto;display:block}
+@media (max-width:560px){.logo__img{height:38px}}
