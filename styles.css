@@ -291,3 +291,43 @@ ul{list-style:none}
 
 .logo__img{height:50px;width:auto;display:block}
 @media (max-width:560px){.logo__img{height:38px}}
+
+/* ===== ПРАВКИ КЛИЕНТА 2026-10-22 ===== */
+.logo__img{height:50px;width:auto}
+.hero{padding:14px 0 80px}
+.hero .eyebrow{margin-bottom:56px;font-size:15px}
+.hero__grid{align-items:start}
+.hero__lead{margin-bottom:28px}
+.hero__stats{margin-top:8px}
+.stat__label{color:var(--ink);font-size:15px}
+.faq__more{margin-top:28px;color:var(--ink-soft);font-size:15px}
+.faq__more b{color:var(--navy)}
+
+/* кнопки связи */
+.coverage__contact{gap:12px}
+.coverage__contact .contact-btn{display:flex;align-items:center;justify-content:center;padding:14px 18px;border:2px solid var(--gold);border-radius:12px;color:#fff;font-weight:700;font-size:16px;text-align:center;transition:.2s;background:rgba(207,181,59,.08)}
+.coverage__contact .contact-btn:hover{background:var(--gold-grad);color:#02050F}
+
+/* плавающая кнопка */
+.fab{width:auto;height:auto;border-radius:999px;padding:15px 24px;font-weight:800;font-size:15px;white-space:nowrap;text-align:center}
+.fab.is-hidden{opacity:0;pointer-events:none;transform:translateY(10px)}
+
+/* шапка: меню в два ряда вместо бургера */
+@media (max-width:1100px){
+  .nav{display:grid;grid-template-columns:repeat(2,auto);gap:4px 22px;margin-left:auto}
+  .nav.is-open{position:static;padding:0;background:none;border:0;box-shadow:none}
+  .nav a{font-size:14px}
+  .nav .nav__a1{order:1}.nav .nav__a4{order:2}.nav .nav__a2{order:3}.nav .nav__a3{order:4}
+  .nav .nav__contacts{display:none}
+  .nav a:not([class]){order:5}
+  .header__actions{display:none}
+  .header__inner{height:76px}
+}
+@media (max-width:560px){
+  .hero{padding:10px 0 56px}
+  .hero .eyebrow{font-size:12.5px;margin-bottom:36px}
+  .header__inner{gap:12px;height:68px}
+  .nav{gap:2px 16px}
+  .nav a{font-size:13.5px}
+  .fab{right:12px;bottom:14px;padding:14px 18px;font-size:14px}
+}

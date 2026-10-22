@@ -101,6 +101,13 @@
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
   targets.forEach(el => io.observe(el));
 
+  // Плавающая кнопка прячется, когда на экране блок связи
+  const fab = document.getElementById('fab');
+  const quick = document.getElementById('quick');
+  if (fab && quick) {
+    new IntersectionObserver(es => es.forEach(e => fab.classList.toggle('is-hidden', e.isIntersecting))).observe(quick);
+  }
+
   // Counters
   const counters = document.querySelectorAll('[data-target]');
   const countIO = new IntersectionObserver(entries => {
