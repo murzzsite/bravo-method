@@ -331,3 +331,4 @@ ul{list-style:none}
   .nav a{font-size:13.5px}
   .fab{right:12px;bottom:14px;padding:14px 18px;font-size:14px}
 }
+.about__mark img{width:100%;max-width:420px;height:auto;object-fit:cover}
