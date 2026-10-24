@@ -1,16 +1,14 @@
 {
   "site": "https://murzzsite.github.io/bravo-method",
   "updated": "2026-10-24",
-  "awaiting": [
-    {
-      "slug": "kak-nauchitsya-igrat-na-slukh",
-      "path": "articles/kak-nauchitsya-igrat-na-slukh.md",
-      "title": "Как научиться играть на слух: с чего начать и почему подбор наугад не работает",
-      "description": "Что значит играть на слух, почему подбор наугад не работает и с чего начать новичку. Пять шагов, частые ошибки и честный разговор о сроках и результате.",
-      "reading_time": "6 мин чтения",
-      "preview_url": "https://murzzsite.github.io/bravo-method/blog/preview/b6c17de68c46/kak-nauchitsya-igrat-na-slukh/"
-    }
-  ],
+  "awaiting": [],
   "scheduled": [],
-  "published": []
+  "published": [
+    {
+      "slug": "kak-nauchitsya-igrat-na-slukh-bez-not",
+      "title": "Как научиться играть на слух без нот и петь по нотам точно",
+      "url": "https://murzzsite.github.io/bravo-method/blog/kak-nauchitsya-igrat-na-slukh-bez-not/",
+      "date": "2026-10-24"
+    }
+  ]
 }
