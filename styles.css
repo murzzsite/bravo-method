@@ -332,3 +332,17 @@ ul{list-style:none}
   .fab{right:12px;bottom:14px;padding:14px 18px;font-size:14px}
 }
 .about__mark img{width:100%;max-width:420px;height:auto;object-fit:cover}
+
+/* ===== БЛОГ в тёмной теме сайта ===== */
+body{
+  --b-bg:transparent;--b-surface:rgba(4,8,24,.72);--b-ink:#FFFFFF;--b-text:#E7ECFA;--b-soft:#AEB9D6;
+  --b-line:rgba(207,181,59,.28);--b-accent:#E6D27A;--b-accent-soft:rgba(207,181,59,.12);
+}
+.blog,.b-home{color:var(--b-text)}
+.b-content a{color:#E6D27A}
+.b-cover{max-width:520px;margin-left:auto;margin-right:auto;border:1px solid var(--line)}
+.b-card:hover{box-shadow:0 16px 36px rgba(0,0,0,.55)}
+.b-cta__btn,.b-cta a.btn{color:#02050F}
+.b-preview{background:#2a2410;color:#E6D27A;border-color:var(--line)}
+.b-content li::marker{color:var(--gold)}
+.b-faq details{background:rgba(4,8,24,.72)}
