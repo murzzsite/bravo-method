@@ -346,3 +346,8 @@ body{
 .b-preview{background:#2a2410;color:#E6D27A;border-color:var(--line)}
 .b-content li::marker{color:var(--gold)}
 .b-faq details{background:rgba(4,8,24,.72)}
+
+/* кнопка записи в блоке «Остались вопросы?» в блоге */
+.b-cta__btn{background:var(--gold-grad);color:#02050F !important;border:0;padding:16px 32px;font-size:16px;font-weight:800;border-radius:10px;box-shadow:0 8px 22px -8px rgba(207,181,59,.6);text-decoration:none}
+.b-cta__btn:hover{filter:brightness(1.07)}
+.b-cta{border-color:var(--gold)}
