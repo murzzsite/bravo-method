@@ -351,3 +351,8 @@ body{
 .b-cta__btn{background:var(--gold-grad);color:#02050F !important;border:0;padding:16px 32px;font-size:16px;font-weight:800;border-radius:10px;box-shadow:0 8px 22px -8px rgba(207,181,59,.6);text-decoration:none}
 .b-cta__btn:hover{filter:brightness(1.07)}
 .b-cta{border-color:var(--gold)}
+
+/* кнопка в блоге: влезает в рамку на телефоне, по центру в горизонтали */
+.b-cta__btn{white-space:normal;text-align:center;max-width:100%;box-sizing:border-box;line-height:1.3}
+@media (max-width:640px){.b-cta__btn{display:flex;width:100%;padding:16px 18px}}
+@media (min-width:641px) and (max-width:960px){.b-cta{text-align:center}.b-cta p{margin-left:auto;margin-right:auto}}
