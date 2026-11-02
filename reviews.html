@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Отзывы — БРАВО</title>
+<meta name="description" content="QR-плакат для сбора отзывов и 10 шаблонов ответов на отзывы.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261102">
+<link rel="stylesheet" href="materials.css?v=20261102">
+</head>
+<body>
+
+<div class="doc-bar">
+  <div class="doc-bar__inner">
+    <a href="report/" class="doc-bar__back">← <span>Страница проекта</span></a>
+    <div class="doc-bar__actions">
+      <button class="btn btn--primary" onclick="window.print()">Распечатать плакат</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <section class="doc-hero">
+    <p class="eyebrow">Отзывы</p>
+    <h1>QR-плакат и готовые ответы на отзывы</h1>
+    <p class="doc-hero__lead">Отзывы на картах влияют на выбор сильнее, чем сайт. Плакат упрощает просьбу «оставьте отзыв»: его можно отправить ученику после консультации или результата, вставить в сообщение или распечатать. Шаблоны экономят время на ответах. Просить отзывы можно у реальных учеников, покупать или писать их самим нельзя: площадки блокируют такие карточки. Публикацию видео и фрагментов занятий согласовывайте с учеником отдельно.</p>
+  </section>
+
+  <section class="doc-section">
+    <h2>1. QR-плакат</h2>
+    <p class="doc-section__lead">Вставьте ссылку на отзыв в вашей карточке (Яндекс Карты, 2ГИС или Google): откройте карточку, нажмите «Оставить отзыв» и скопируйте адрес. Пока карточек нет, QR ведёт на сайт <b>bravometod.ru</b>: это только пример того, как плакат выглядит.</p>
+    <div class="poster-tools">
+      <input id="reviewUrl" type="url" placeholder="Вставьте ссылку на отзыв в карточке" value="https://bravometod.ru/">
+    </div>
+    <div class="poster">
+      <p class="eyebrow eyebrow--center">БРАВО · метод игры на слух</p>
+      <h2>Занимались по методу БРАВО? Оставьте отзыв</h2>
+      <p>Наведите камеру телефона на код. Это займёт минуту и поможет другим понять, подходит ли им метод.</p>
+      <div class="poster__qr" id="qr"></div>
+      <p class="poster__name">Спасибо, что доверяете!</p>
+    </div>
+  </section>
+
+  <section class="doc-section doc-section--replies">
+    <h2>2. Десять шаблонов ответов на отзывы</h2>
+    <p class="doc-section__lead">Подставляйте имя и деталь из отзыва, чтобы ответ не выглядел шаблонным. Не раскрывайте подробности занятий и успехов без согласия ученика: это конфиденциальная информация.</p>
+
+    <h3>Положительные</h3>
+    <div class="grid-2">
+      <div class="card"><p>1. «Спасибо, [имя]! Рад, что получилось сыграть мелодию на слух сразу. Дальше всё зависит от практики, и вы уже на верном пути.»</p></div>
+      <div class="card"><p>2. «[Имя], благодарю за тёплые слова. Для меня главное, чтобы вы получили навык, а не просто прошли занятия. Рад, что это удалось.»</p></div>
+      <div class="card"><p>3. «Спасибо за отзыв! Приятно, что [деталь из отзыва] оказалась для вас важной. Успехов в музыке!»</p></div>
+      <div class="card"><p>4. «[Имя], спасибо, что рекомендуете. Буду рад помочь вашим знакомым, консультация для них бесплатная.»</p></div>
+      <div class="card"><p>5. «Благодарю! Начало было непростым, и приятно, что мы вместе дошли до результата. Хорошего вам дня.»</p></div>
+    </div>
+
+    <h3 style="margin-top:32px">Негативные и спорные</h3>
+    <div class="grid-2">
+      <div class="card"><p>6. «[Имя], жаль, что осталось неприятное впечатление. Расскажите, пожалуйста, что именно пошло не так: напишите в Telegram @NumberOneBOGdan. Хочу разобраться и исправить, если ошибка моя.»</p></div>
+      <div class="card"><p>7. «Спасибо за честный отзыв. Я не обещаю заранее «любую мелодию за неделю»: результат зависит и от практики между занятиями. Но должен был лучше объяснить ожидания, учту это.»</p></div>
+      <div class="card"><p>8. «[Имя], понимаю ваше недовольство. Напишите мне в личные сообщения, посмотрим, на каком этапе возникла сложность и что можно изменить.»</p></div>
+      <div class="card"><p>9. «Отзыв прочитал. Подробности занятий публично обсуждать не могу, но готов разобрать ситуацию лично: напишите мне, свяжусь.»</p></div>
+      <div class="card"><p>10. «Спасибо, что написали. К сожалению, я не нашёл среди учеников обращение с такими данными. Пожалуйста, уточните детали, чтобы я мог разобраться.»</p></div>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+  var box = document.getElementById('qr');
+  var input = document.getElementById('reviewUrl');
+  function render(){
+    var url = (input.value || '').trim();
+    box.innerHTML = '';
+    if(!url || typeof QRCode === 'undefined') return;
+    new QRCode(box, {text: url, width: 220, height: 220, correctLevel: QRCode.CorrectLevel.M});
+  }
+  input.addEventListener('input', render);
+  render();
+})();
+</script>
+</body>
+</html>

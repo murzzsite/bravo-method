@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Карта каналов — БРАВО</title>
+<meta name="description" content="Методика выбора Telegram-каналов для рекламных посевов, калькулятор стоимости и план первой волны.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261102">
+<link rel="stylesheet" href="materials.css?v=20261102">
+</head>
+<body>
+
+<div class="doc-bar">
+  <div class="doc-bar__inner">
+    <a href="report/" class="doc-bar__back">← <span>Страница проекта</span></a>
+    <div class="doc-bar__actions">
+      <button class="btn btn--primary" onclick="window.print()">Сохранить в PDF</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <section class="doc-hero">
+    <p class="eyebrow">Карта каналов · Telegram-посевы</p>
+    <h1>Как выбрать каналы для рекламы и не заплатить за накрутку</h1>
+    <p class="doc-hero__lead">Посев — это покупка рекламного поста в чужом Telegram-канале. Здесь методика отбора, калькулятор стоимости и план первой волны на 5 каналов. Размещения оплачиваете вы отдельно, цены называют администраторы каналов. Результат посевов не гарантируем. Пост ведёт на сайт и на бота с гайдом, поэтому для тех, у кого Telegram работает только через VPN, остаётся ссылка на сайт.</p>
+    <p class="doc-hero__lead"><span class="draft">важно</span> Список из 30–40 конкретных каналов с цифрами нельзя собрать честно без доступа к платным данным аналитики (Telemetr, TGStat): в открытом доступе эти сервисы показывают только первые строки каталога. Поэтому здесь готовы критерии, запросы для поиска и план, а таблицу мы дозаполним сами, когда подключим сервисы аналитики.</p>
+    <nav class="toc">
+      <a href="#who">1. Кого искать</a>
+      <a href="#rules">2. Критерии</a>
+      <a href="#data">3. Как собрать список</a>
+      <a href="#calc">4. Калькулятор</a>
+      <a href="#wave">5. Первая волна</a>
+      <a href="#order">6. Как заказать</a>
+    </nav>
+  </section>
+
+  <section class="doc-section" id="who">
+    <h2>1. Какую аудиторию искать</h2>
+    <p class="doc-section__lead">Ваш ученик — взрослый, который хочет играть на слух, писать музыку или петь по нотам. Это музыканты с образованием, вокалисты, те, кто пишет музыку в программе, и новички, которые начинают с нуля.</p>
+    <div class="grid-2">
+      <div class="card"><span class="tag">Брать первыми</span><p class="card__title">Обучение игре на инструментах и вокалу</p>
+        <p>Каналы про уроки гитары, пианино, духовых и вокала, разборы песен, музыкальную теорию для взрослых. Аудитория уже учится и ищет, чем себе помочь.</p></div>
+      <div class="card"><span class="tag">Брать первыми</span><p class="card__title">Сообщества музыкантов и вокалистов</p>
+        <p>Хоры, кавер-группы, любительские коллективы, оркестры, джазовые и эстрадные сообщества. Здесь чаще всего сталкиваются с пением по нотам и игрой на слух.</p></div>
+      <div class="card"><span class="tag">Резерв</span><p class="card__title">Создание музыки и работа со звуком</p>
+        <p>Каналы про музыкальные программы (DAW), создание музыки с ИИ, сведение. Подходит тем, кто хочет достать музыку «из головы».</p></div>
+      <div class="card"><span class="tag">Не берём</span><p class="card__title">Каналы про концерты и подборки музыки</p>
+        <p>Новости, афиши и плейлисты. Аудитория слушает, а не учится.</p></div>
+    </div>
+  </section>
+
+  <section class="doc-section" id="rules">
+    <h2>2. Критерии отбора и признаки накрутки</h2>
+    <div class="card">
+      <ul class="ul">
+        <li><b>Охват поста к подписчикам.</b> Делите средний охват на число подписчиков. Как правило, живой канал даёт охват от 10% подписчиков, у большого канала с охватом в 1–3% аудитория в основном неактивна.</li>
+        <li><b>Рост подписчиков.</b> Резкие скачки без роста охвата и вовлечённости указывают на накрутку или закупку подписчиков.</li>
+        <li><b>Вовлечённость (ER).</b> Реакции, комментарии и пересылки в последних постах. Канал без реакций при большом охвате вызывает подозрение.</li>
+        <li><b>Рекламная нагрузка.</b> Если в ленте почти одна реклама, посты в ней теряются.</li>
+        <li><b>Цена за 1000 просмотров.</b> Считайте её в калькуляторе ниже и сравнивайте каналы между собой.</li>
+        <li><b>Тематика постов.</b> Прочитайте последние 10 постов: нужны ли они вашему ученику, а не просто попадает ли канал в категорию.</li>
+      </ul>
+      <p class="card__note">«Не берём» ставим при подозрении на накрутку, сетях одинаковых каналов и мёртвой аудитории. «Резерв» — подходящая аудитория, но слабые показатели или высокая цена.</p>
+    </div>
+  </section>
+
+  <section class="doc-section" id="data">
+    <h2>3. Как собрать список из 30–40 каналов</h2>
+    <ol class="ul checklist">
+      <li><b>Доступ к аналитике.</b> Мы подключаем сервисы Telemetr и TGStat со своей стороны, от вас ничего не требуется.</li>
+      <li><b>Поиск.</b> В каталоге ищем по запросам: игра на слух, уроки гитары, уроки фортепиано, уроки вокала, музыкальная теория, сольфеджио, музыкант, хор, кавер-группа, создание музыки, музыкальные программы, музыкальное образование.</li>
+      <li><b>Выгрузка.</b> Для каждого канала записываем подписчиков, средний охват поста, ER, динамику роста и цену размещения.</li>
+      <li><b>Отбор.</b> Применяем критерии из раздела 2 и делим на «брать первыми», «резерв», «не берём». Нужно 30–40 каналов в таблице.</li>
+      <li><b>Проверка вручную.</b> Читаем последние 10 постов у кандидатов на первую волну и пишем администратору.</li>
+    </ol>
+  </section>
+
+  <section class="doc-section" id="calc">
+    <h2>4. Калькулятор: сколько стоит 1000 просмотров</h2>
+    <p class="doc-section__lead">Введите цену размещения и средний охват поста. Чем ниже цена за 1000 просмотров, тем дешевле контакт, но смотрите и на качество аудитории.</p>
+    <div class="card">
+      <div class="calc-box">
+        <label>Цена размещения, ₽<input id="price" type="number" min="0" value="5000"></label>
+        <label>Средний охват поста<input id="reach" type="number" min="0" value="3000"></label>
+        <label>Ваш бюджет на волну, ₽<input id="budget" type="number" min="0" value="25000"></label>
+      </div>
+      <p class="calc-out">Цена за 1000 просмотров: <b id="cpm">—</b> ₽. Ожидаемые просмотры на бюджет: <b id="views">—</b>.</p>
+      <p class="card__note">Значения в полях — условный пример, не реальные цены каналов.</p>
+    </div>
+  </section>
+
+  <section class="doc-section" id="wave">
+    <h2>5. План первой волны: 5 каналов, 3 рекламных поста</h2>
+    <div class="card">
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>№</th><th>Когда</th><th>Канал</th><th>Пост</th></tr>
+        <tr><td>1</td><td>Неделя 3, день 1</td><td><mark class="ph">[из таблицы, «брать первыми»]</mark></td><td>Пост А</td></tr>
+        <tr><td>2</td><td>Неделя 3, день 3</td><td><mark class="ph">[из таблицы, «брать первыми»]</mark></td><td>Пост Б</td></tr>
+        <tr><td>3</td><td>Неделя 3, день 5</td><td><mark class="ph">[из таблицы, «брать первыми»]</mark></td><td>Пост В</td></tr>
+        <tr><td>4</td><td>Неделя 4, день 2</td><td><mark class="ph">[из таблицы, «резерв»]</mark></td><td>Лучший из А, Б, В</td></tr>
+        <tr><td>5</td><td>Неделя 4, день 4</td><td><mark class="ph">[из таблицы, «резерв»]</mark></td><td>Лучший из А, Б, В</td></tr>
+      </table></div>
+      <p class="card__note">Принцип: сначала три разных поста в трёх каналах, потом повторяем самый результативный. Результат смотрим по числу записей на консультацию и по стоимости одной записи.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card"><span class="tag">Пост А</span><p class="post">Вы учились музыке, а сыграть услышанное не выходит?
+
+Дело не в вас: на слух в программах обычно не хватает времени. Метод БРАВО возвращает связь «слышу — играю»: за 24 часа занятий формируется навык играть, записывать нотами или точно петь по нотам.
+
+Бесплатная консультация 30 минут: bravometod.ru</p></div>
+      <div class="card"><span class="tag">Пост Б</span><p class="post">Подбор наугад и игра на слух: в чём разница
+
+Подбор: нажимать клавиши и слушать «та или не та». Игра на слух: услышали и сразу сыграли.
+
+Второму можно научиться. Расскажу, как, на бесплатной консультации: bravometod.ru</p></div>
+      <div class="card"><span class="tag">Пост В</span><p class="post">Петь по нотам без инструмента
+
+Спеть знакомое на слух может почти каждый. А точно спеть с листа то, чего вы не слышали?
+
+Этому можно научиться. Консультация бесплатная, 30 минут онлайн: bravometod.ru</p></div>
+    </div>
+  </section>
+
+  <section class="doc-section" id="order">
+    <h2>6. Как заказать размещение</h2>
+    <ol class="ul checklist">
+      <li>Откройте контакт для рекламы в описании канала или через рекламную биржу, на которой канал зарегистрирован.</li>
+      <li>Запросите условия: цену, формат (пост, закреп, время жизни поста), статистику последних размещений.</li>
+      <li>Согласуйте текст и ссылку на сайт, договоритесь о дате и времени.</li>
+      <li>Оплачивайте только через безопасную сделку биржи или по договору. Не переводите деньги незнакомым «менеджерам» до подтверждения владельцем канала.</li>
+      <li>После выхода поста сохраните скриншот и сравните число записей на консультацию в тот же день и на следующий.</li>
+    </ol>
+  </section>
+
+</div>
+<script>document.querySelectorAll(".tbl").forEach(function(t){var h=[].map.call(t.querySelectorAll("th"),function(x){return x.textContent});if(!h.length)return;t.querySelectorAll("tr").forEach(function(r){[].forEach.call(r.children,function(c,i){if(c.tagName==="TD")c.setAttribute("data-label",h[i]||"")})})});</script>
+<script>
+(function(){
+  var p=document.getElementById('price'), r=document.getElementById('reach'), b=document.getElementById('budget');
+  var cpm=document.getElementById('cpm'), v=document.getElementById('views');
+  function fmt(n){return Math.round(n).toLocaleString('ru-RU');}
+  function calc(){
+    var pr=+p.value||0, re=+r.value||0, bu=+b.value||0;
+    if(pr>0&&re>0){cpm.textContent=fmt(pr/re*1000); v.textContent=fmt(bu/pr*re);} else {cpm.textContent='—'; v.textContent='—';}
+  }
+  [p,r,b].forEach(function(e){e.addEventListener('input',calc);}); calc();
+})();
+</script>
+</body>
+</html>
