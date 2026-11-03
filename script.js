@@ -128,3 +128,7 @@
   }, { threshold: 0.4 });
   counters.forEach(el => countIO.observe(el));
 })();
+
+
+// Цель Метрики «Заявка» (JavaScript-событие lead_submit)
+document.getElementById('leadForm')?.addEventListener('submit', function () { if (window.ym) { ym(114037946, 'reachGoal', 'lead'); ym(114037946, 'reachGoal', 'lead_submit'); } });
