@@ -358,5 +358,5 @@ body{
 @media (min-width:641px) and (max-width:960px){.b-cta{text-align:center}.b-cta p{margin-left:auto;margin-right:auto}}
 
 /* карточки статей: картинка целиком, свободное место заливается чёрным по бокам */
-.b-card__img{background:#000008}
-.b-card__img img{object-fit:contain}
+body .b-card .b-card__img{background:#000008}
+body .b-card .b-card__img img{object-fit:contain}
