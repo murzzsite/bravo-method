@@ -1,7 +1,32 @@
 {
   "site": "https://bravometod.ru",
-  "updated": "2026-11-17",
-  "awaiting": [],
+  "updated": "2026-11-18",
+  "awaiting": [
+    {
+      "slug": "igra-na-slukh-ili-podbor-naugad",
+      "path": "articles/igra-na-slukh-ili-podbor-naugad.md",
+      "title": "Игра на слух и подбор наугад: в чём разница и как перестать гадать",
+      "description": "Подбор наугад и игра на слух выглядят одинаково, но устроены по-разному. Разбираем, чем они отличаются, почему угадывание не копит навык и с чего начать.",
+      "reading_time": "10 мин чтения",
+      "preview_url": "https://bravometod.ru/blog/preview/43cd096b6d1c/igra-na-slukh-ili-podbor-naugad/"
+    },
+    {
+      "slug": "kak-pet-po-notam-bez-instrumenta",
+      "path": "articles/kak-pet-po-notam-bez-instrumenta.md",
+      "title": "Как петь по нотам без инструмента: разбор для вокалистов и хористов",
+      "description": "Как спеть ноты, которых вы не слышали, без разбора на пианино. Что для этого нужно услышать в голове, типичные ошибки и как тренировать навык с преподавателем.",
+      "reading_time": "10 мин чтения",
+      "preview_url": "https://bravometod.ru/blog/preview/4652a76d149a/kak-pet-po-notam-bez-instrumenta/"
+    },
+    {
+      "slug": "pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh",
+      "path": "articles/pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh.md",
+      "title": "Почему в музыкальных школах не учат играть на слух — и как это исправить",
+      "description": "Окончили музыкальную школу, а сыграть услышанную мелодию не получается. Разбираем, откуда берётся этот разрыв, дело ли в вас и как восполнить пропущенный навык.",
+      "reading_time": "10 мин чтения",
+      "preview_url": "https://bravometod.ru/blog/preview/03053993cf60/pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh/"
+    }
+  ],
   "scheduled": [],
   "published": [
     {
