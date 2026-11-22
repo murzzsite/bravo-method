@@ -17,18 +17,22 @@
       "description": "Как спеть ноты, которых вы не слышали, без разбора на пианино. Что для этого нужно услышать в голове, типичные ошибки и как тренировать навык с преподавателем.",
       "reading_time": "10 мин чтения",
       "preview_url": "https://bravometod.ru/blog/preview/4652a76d149a/kak-pet-po-notam-bez-instrumenta/"
-    },
-    {
-      "slug": "pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh",
-      "path": "articles/pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh.md",
-      "title": "Почему в музыкальных школах не учат играть на слух — и как это исправить",
-      "description": "Окончили музыкальную школу, а сыграть услышанную мелодию не получается. Разбираем, откуда берётся этот разрыв, дело ли в вас и как восполнить пропущенный навык.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://bravometod.ru/blog/preview/03053993cf60/pochemu-v-muzykalnykh-shkolakh-ne-uchat-igrat-na-slukh/"
     }
   ],
   "scheduled": [],
   "published": [
+    {
+      "slug": "konets-slukha",
+      "title": "В 2012-м не было конца света. Был конец «слуха».",
+      "url": "https://bravometod.ru/blog/konets-slukha/",
+      "date": "2026-11-22"
+    },
+    {
+      "slug": "pochemu-ne-uchat-igrat-na-slukh",
+      "title": "Почему в музыкальных школах не учат играть на слух?",
+      "url": "https://bravometod.ru/blog/pochemu-ne-uchat-igrat-na-slukh/",
+      "date": "2026-11-22"
+    },
     {
       "slug": "absolyutnyy-sluh-nuzhen-li",
       "title": "Абсолютный слух: нужен ли он, чтобы играть на слух",
