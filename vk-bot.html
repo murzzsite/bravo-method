@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Настройка VK-бота — БРАВО</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png?v=3">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261114">
+<link rel="stylesheet" href="materials.css?v=20261114">
+</head>
+<body>
+<div class="doc-bar"><div class="doc-bar__inner">
+  <a href="index.html" class="doc-bar__back">← <span>Назад на сайт</span></a>
+</div></div>
+<div class="container">
+  <section class="doc-hero">
+    <p class="eyebrow">Инструкция · VK-бот</p>
+    <h1>Бот подключён, но не отвечает: что проверить в сообществе</h1>
+    <p class="doc-hero__lead">Ключ доступа принят и бот привязан к сообществу «Метод БРАВО». Чаще всего он молчит из-за одной из настроек в VK. Пройдите три шага, они занимают несколько минут.</p>
+  </section>
+  <section class="doc-section">
+    <div class="card">
+      <p class="card__title">1. Сообщения сообщества</p>
+      <ul class="ul">
+        <li>Откройте сообщество, «Управление», «Сообщения».</li>
+        <li>«Сообщения сообщества» должны быть <b>включены</b>.</li>
+        <li>Там же, в «Настройках для бота», включите <b>«Возможности ботов»</b>.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card__title">2. Long Poll API</p>
+      <ul class="ul">
+        <li>«Управление», «Работа с API», вкладка «Long Poll API».</li>
+        <li>Long Poll API <b>включён</b>, версия API самая новая из списка.</li>
+        <li>Вкладка «Типы событий», раздел «Сообщения»: поставьте галочку <b>«Входящее сообщение»</b>. Если её нет, бот не получает сообщения и молчит.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p class="card__title">3. Ключ доступа</p>
+      <ul class="ul">
+        <li>«Управление», «Работа с API», вкладка «Ключи доступа».</li>
+        <li>Ключ должен быть создан <b>в этом же сообществе</b> с правом <b>«Сообщения сообщества»</b>.</li>
+        <li>Если сомневаетесь, создайте новый ключ и пришлите нам в рабочий чат. Старый удалите.</li>
+      </ul>
+    </div>
+    <div class="tip"><strong>Когда проверите:</strong> напишите нам в рабочий чат «готово». Мы подключим бота заново, пришлём ссылку, и вы сможете проверить, нажав «Начать». Если какой-то экран отличается от описания, пришлите скриншот именно его.</div>
+    <p class="card__note" style="margin-top:18px">Ключ доступа нужен только для подключения бота. Присылайте его в рабочий чат с нами и не публикуйте нигде в открытом виде.</p>
+  </section>
+</div>
+</body>
+</html>
